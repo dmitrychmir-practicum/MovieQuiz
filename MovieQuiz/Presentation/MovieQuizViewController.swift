@@ -9,6 +9,7 @@ final class MovieQuizViewController: UIViewController {
     @IBOutlet private weak var textLabel: UILabel!
     @IBOutlet private weak var imageView: UIImageView!
     private lazy var baseFont = UIFont(name: "YSDisplay-Medium", size: 20)
+    private lazy var boldFont = UIFont(name: "YSDisplay-Bold", size: 23)
     private var currentQuestionIndex = 0
     private var correctAnswers = 0
     private var statistics: [QuizStat] = []
@@ -62,7 +63,7 @@ final class MovieQuizViewController: UIViewController {
         yesButton.titleLabel?.font = baseFont
         questionTitleLabel.font = baseFont
         counterLabel.font = baseFont
-        textLabel.font = baseFont?.withSize(23)
+        textLabel.font = boldFont
         imageView.layer.masksToBounds = true
         imageView.layer.cornerRadius = 6
         
