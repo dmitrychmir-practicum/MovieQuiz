@@ -18,15 +18,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="aOf-83-63y">
-                                <rect key="frame" x="20" y="86" width="374" height="742"/>
+                                <rect key="frame" x="20" y="106" width="374" height="722"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CPS-RB-JbG" userLabel="Top Labels Stack">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="20.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вопрос:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZf-Js-Egh" userLabel="Question Title Label">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZf-Js-Egh" userLabel="Question Title Label">
                                                 <rect key="frame" x="0.0" y="0.0" width="344" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" name="YP White"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Вопрос:">
+                                                        <attributes>
+                                                            <color key="NSColor" name="YP White"/>
+                                                            <font key="NSFont" size="20" name="YSDisplay-Medium"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="1/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQO-vu-nLg" userLabel="Index Label">
@@ -45,13 +51,13 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Рейтинг этого фильма меньше чем 5?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qA5-Ka-g9o" userLabel="Question Label">
-                                        <rect key="frame" x="0.0" y="621.5" width="374" height="40.5"/>
+                                        <rect key="frame" x="0.0" y="621.5" width="374" height="20.5"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="23"/>
                                         <color key="textColor" name="YP White"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Xuc-VI-6h1" userLabel="Buttons Stack">
-                                        <rect key="frame" x="0.0" y="682" width="374" height="60"/>
+                                        <rect key="frame" x="0.0" y="662" width="374" height="60"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCc-d1-u8m" userLabel="No button">
                                                 <rect key="frame" x="0.0" y="0.0" width="177" height="60"/>
@@ -97,7 +103,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="YP Black"/>
                         <constraints>
-                            <constraint firstItem="aOf-83-63y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-10" id="UP3-yd-Aiv"/>
+                            <constraint firstItem="aOf-83-63y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="UP3-yd-Aiv"/>
                             <constraint firstItem="aOf-83-63y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="W2s-LI-w7H"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aOf-83-63y" secondAttribute="trailing" constant="20" id="ibs-IZ-2PM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aOf-83-63y" secondAttribute="bottom" id="twY-Pw-eJX"/>
@@ -114,7 +120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="412" y="72"/>
+            <point key="canvasLocation" x="411.59420289855075" y="71.651785714285708"/>
         </scene>
     </scenes>
     <resources>

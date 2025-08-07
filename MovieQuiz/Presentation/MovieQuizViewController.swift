@@ -65,7 +65,7 @@ final class MovieQuizViewController: UIViewController {
         counterLabel.font = baseFont
         textLabel.font = boldFont
         imageView.layer.masksToBounds = true
-        imageView.layer.cornerRadius = 6
+        imageView.layer.cornerRadius = 20
         
         showCurrentQuestion()
     }
