@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6489AD692E5ECE7F00C5655A /* MovieQuizViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6489AD682E5ECE7100C5655A /* MovieQuizViewController+Extensions.swift */; };
 		64A204802E4370A200A8DD0A /* YS Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64A2047D2E4370A200A8DD0A /* YS Display-Bold.ttf */; };
 		64A204812E4370A200A8DD0A /* YS Display-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64A2047E2E4370A200A8DD0A /* YS Display-Medium.ttf */; };
 		64A6E9E82E570D0B00A004CE /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A6E9E72E570D0800A004CE /* AlertPresenter.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6489AD682E5ECE7100C5655A /* MovieQuizViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MovieQuizViewController+Extensions.swift"; sourceTree = "<group>"; };
 		64A2047D2E4370A200A8DD0A /* YS Display-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YS Display-Bold.ttf"; sourceTree = "<group>"; };
 		64A2047E2E4370A200A8DD0A /* YS Display-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YS Display-Medium.ttf"; sourceTree = "<group>"; };
 		64A6E9E72E570D0800A004CE /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		ADF0CF75283FDAA10075F54D /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				6489AD682E5ECE7100C5655A /* MovieQuizViewController+Extensions.swift */,
 				64CB2BFB2E5DA657001608F9 /* Double+Extensions.swift */,
 				AD5EE5DD284D7887003966EF /* UIColor+Extensions.swift */,
 				AD7AFA542836189F00399704 /* Array+Extensions.swift */,
@@ -228,6 +231,7 @@
 				64CB2BE32E5C7E75001608F9 /* StatisticServiceProtocol.swift in Sources */,
 				AD5EE5DE284D7887003966EF /* UIColor+Extensions.swift in Sources */,
 				AD7AFA552836189F00399704 /* Array+Extensions.swift in Sources */,
+				6489AD692E5ECE7F00C5655A /* MovieQuizViewController+Extensions.swift in Sources */,
 				AD1ABAB62831907B00B3E448 /* MovieQuizViewController.swift in Sources */,
 				64A6E9E82E570D0B00A004CE /* AlertPresenter.swift in Sources */,
 				64C359E62E54451200E1058F /* QuestionFactoryDelegate.swift in Sources */,
